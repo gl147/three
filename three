@@ -1,0 +1,11 @@
+Lesson three
+
+Gitignore, .gitkeep, git branch, git merge
+
+Gitignore - is a file that prevent of commiting garbage files and folders. For exapmle .DS_Store at mac.
+It is hiden file, so its name has to begin with dot ".gitignore"
+Usually .gitignore has same structure at each project, but we also can change it and add some extra files and folders to be ignored
+
+Git do not see folders, if they are emty. .gitkeep file is used to make folder visible for git
+
+
