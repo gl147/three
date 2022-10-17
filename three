@@ -3,9 +3,29 @@ Lesson three
 Gitignore, .gitkeep, git branch, git merge
 
 Gitignore - is a file that prevent of commiting garbage files and folders. For exapmle .DS_Store at mac.
-It is hiden file, so its name has to begin with dot ".gitignore"
+It is hidden file, so its name has to begin with dot ".gitignore"
 Usually .gitignore has same structure at each project, but we also can change it and add some extra files and folders to be ignored
 
-Git do not see folders, if they are emty. .gitkeep file is used to make folder visible for git
+Git does not see folders, if they are emty. .gitkeep file is used to make folder visible for git
+
+We can create branches of the project, the first branch is main. then we can create a copy of project and make changes on it, meanwhile main branch stay safe with the same content
+
+gir branch [branchName] - creates new branch of current project.
+
+git branch - displays all available branches of a project 
+
+current active branch of a project is called HEAD
+
+git checkout [branchName] - change HEAD to pointed branch
+
+same result:
+
+git switch [branchName]
+
+git -m [oldBranchName] [newBranchName] - renames branches
+
+git -m [newBranchName] - renames HEAD branch to newBranchName
+
+git merge [branchName] - add all changes that was made at branch branchName to HEAD branch, and add all commits from branchName to HEAD
 
 
